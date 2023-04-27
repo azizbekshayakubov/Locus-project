@@ -1,0 +1,295 @@
+
+/* additionals btn */
+
+.btn {
+    width: 250px;
+    height: 70px;
+    background: #58A9A5;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    border-style: none;
+   
+
+}
+.btn:hover{
+    background: #41c7c0;
+    box-shadow: 0 0 30px 5px #999;
+    transition: 1s;
+}
+.btn:active{
+    transform: scale(0.95);
+    transition: 0.05s;
+}
+
+
+button.btn1 {
+    border-bottom-left-radius: 0%;
+}
+
+/* additionals btn */
+
+/* start our project */
+
+.projects {
+    margin-top: 1200px;
+}
+
+.projects .container .pro__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: #1C2323;
+    margin-bottom: 0;
+}
+
+.projects .container .pro__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #404242;
+    margin-bottom: 50px;
+}
+
+.projects .container .line,
+.contact .line {
+    width: 200px;
+
+    border-bottom: 5px solid #58A9A5;
+    ;
+    background-color: #58A9A5;
+    margin: 20px auto;
+
+}
+
+.projects .container .project__cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.projects .container .project__cards .project__card img {
+    width: 300px;
+}
+
+.projects .container .project__cards .project__card h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 60px;
+    color: #58A9A5;
+    margin: 0;
+
+}
+
+.projects .container .project__cards .project__card p {
+    width: 290px;
+    height: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #486958;
+    margin: 0;
+}
+
+
+/* end our project */
+
+/* start testimonial */
+
+.testimonial {
+    margin-top: 250px;
+
+}
+
+.testimonial .container h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: #1C2323;
+}
+
+.testimonial .container .tes__box {
+    display: flex;
+    justify-content: space-between;
+    background: #CCF0E6;
+}
+
+.testimonial .container .test-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonial .container .test-imgs img {
+    width: 180px;
+}
+
+.testimonial .container .tes__box .tes__box__left img {
+    width: 400px;
+
+}
+
+.testimonial .container .tes__box .tes__box__right {
+    background: #CCF0E6;
+    position: relative;
+    /* padding-top: 50px; */
+}
+
+.testimonial .container .tes__box .tes__box__right .num-cards {
+    display: flex;
+    height: 250px;
+
+}
+
+.testimonial .container .tes__box .tes__box__right .num-cards .num-card {
+    margin: 50px;
+    text-align: start;
+
+}
+
+.testimonial .container .tes__box .tes__box__right .num-cards .num-card h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 105px;
+    color: #58A9A5;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+
+}
+
+.testimonial .container .tes__box .tes__box__right .num-cards .num-card p {
+    width: 148px;
+    height: 179px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #58A9A5;
+
+}
+
+.testimonial .container .tes__box .tes__box__right img {
+    width: 100px;
+    margin-left: 70px;
+}
+
+.testimonial .container .tes__box .tes__box__right .end-p {
+    width: 552px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #486958;
+    margin-left: 120px;
+    position: absolute;
+    top: 270px;
+    margin-top: 0;
+
+}
+
+.testimonial .container .tes__box .tes__box__right .end-p span {
+    color: #45c7d8;
+}
+
+
+/* End testimonial */
+
+
+/* Start contact */
+
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.contact .container .contact__left{
+    text-align: start;
+}
+.contact .container .contact__left h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: #1C2323;
+    margin: 0;
+
+
+}
+
+.contact .container .contact__left p {
+    width: 398px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #486958;
+
+}
+
+.contact .container .contact__left .line1 {
+    position: relative;
+    margin-left:0 ;
+
+}
+
+.contact .container .contact__right form {
+    border: 1px solid #48695885;
+    padding: 0 40px;
+    padding-bottom: 30px;
+    
+}
+
+.contact .container .contact__right form input {
+    display: block;
+    width: 600px;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid #5c5a5aa9;
+    ;
+}
+
+.contact .container .contact__right form input:nth-child(3) {
+    border-bottom: 1px solid #ffffff;
+}
+
+.contact .container .contact__right form input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: #486958;
+}
+
+.contact .container .contact__right form .btn{
+    margin-left: 355px;
+}
+
+/* End contact */
